@@ -1,0 +1,147 @@
+ .VetAds {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d9d9d9;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+   box-shadow: 0px 23.34px 87.51px 0px #C0BCA138;
+  padding: 20px;
+   max-width: 360px;
+  width: 500px;
+  margin: 20px auto;
+
+} 
+
+
+.Vet-Ads{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 280px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+
+.pet-image {
+  width: 100%;
+  height: 220px;
+  /* object-fit: cover; */
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.VetAds {
+  text-align: left;
+  width: 100%;
+}
+
+.CatTitle {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+
+
+.view-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #A658A1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+
+  font-size: 0.95rem;
+}
+
+.view-button:hover {
+  background-color: #0056b3;
+}
+
+.Vet-Ads img{
+  width: 100%;
+}
+/* Desktop Large Screens (Optional) */
+ @media (min-width: 1200px) {
+  .VetAds {
+    width: 500px;
+  }
+} 
+
+/* Tablets & Small Desktops */
+ @media (max-width: 1024px) {
+  .VetAds {
+    width: 80%;
+  }
+
+  .pet-image {
+    height: 200px;
+  }
+
+  .CatTitle {
+    font-size: 1.1rem;
+  }
+
+  .view-button {
+    font-size: 0.9rem;
+    padding: 9px 18px;
+  }
+} 
+
+/* Tablets and Medium Screens */
+ @media (max-width: 768px) {
+  .VetAds {
+    width: 90%;
+    padding: 18px;
+  }
+
+  .pet-image {
+    height: 180px;
+  }
+
+  .CatTitle {
+    font-size: 1rem;
+  }
+
+  .view-button {
+    font-size: 0.85rem;
+    padding: 8px 16px;
+  }
+} 
+
+/* Small Mobile Devices */
+ @media (max-width: 480px) {
+  .VetAds {
+    width: 95%;
+    margin: 10px auto;
+    padding: 15px;
+  }
+
+  .pet-image {
+    height: 160px;
+  }
+
+  .CatTitle {
+    font-size: 0.95rem;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .view-button {
+    width: 100%;
+    font-size: 0.85rem;
+    padding: 8px 0;
+  }
+}  

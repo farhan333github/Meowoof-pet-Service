@@ -1,0 +1,251 @@
+/* .header {
+ 
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333;
+  line-height: 1.6;
+  flex-wrap: wrap;
+}
+
+.header h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.header h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #A658A1;
+} */
+
+/* .header p {
+  font-size: 16px;
+  color: #444;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.header p strong{
+    color: #A658A1;
+    font-size: 17px;
+}
+
+h1 strong{
+  color: #A658A1;
+}
+.irishlogo {
+  float: right;
+  margin-left: auto;
+  margin-right: 0;
+  width: 70px;  
+  height: auto;
+  margin-top: -38px;
+}
+
+
+@media (min-width: 600px) {
+  .header h1 {
+    font-size: 28px;
+  }
+  .header h2 {
+    font-size: 26px;
+  }
+  .header p {
+    font-size: 16px;
+  }
+  .header p strong {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 900px) {
+  .header {
+    padding: 50px;
+  }
+  .header h1 {
+    font-size: 32px;
+  }
+  .header h2 {
+    font-size: 30px;
+  }
+  .header p {
+    font-size: 17px;
+    max-width: 800px;
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+.text{
+  padding-left: 25px;
+  margin-top: 0px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333;
+  line-height: 1.6;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.header h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.header h1 strong {
+  color: #A658A1;
+}
+
+.header h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #A658A1;
+}
+
+.header p {
+  font-size: 14px;
+  color: #444;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.header p strong {
+  color: #A658A1;
+  font-size: 15px;
+}
+
+/* Logo styling */
+.irishlogo {
+  width: 60px;
+  height: auto;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Mobile: up to 480px */
+@media (max-width: 480px) {
+  .header {
+    padding: 16px;
+  }
+
+  .header h1 {
+    font-size: 17px;
+  }
+
+  .header h2 {
+    font-size: 18px;
+  }
+
+  .header p {
+    font-size: 13px;
+  }
+
+  .header p strong {
+    font-size: 14px;
+  }
+
+  .irishlogo {
+    width: 50px;
+    top: 10px;
+    right: 1px;
+  }
+}
+
+/* Tablet: 481px to 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+  .header {
+    padding: 24px;
+  }
+
+  .header h1 {
+    font-size: 26px;
+  }
+
+  .header h2 {
+    font-size: 24px;
+  }
+
+  .header p {
+    font-size: 15px;
+  }
+
+  .header p strong {
+    font-size: 16px;
+  }
+
+  .irishlogo {
+    width: 60px;
+  }
+}
+
+/* Laptop: 769px to 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header {
+    padding: 40px;
+  }
+
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .header h2 {
+    font-size: 26px;
+  }
+
+  .header p {
+    font-size: 16px;
+  }
+
+  .header p strong {
+    font-size: 17px;
+  }
+
+  .irishlogo {
+    width: 65px;
+  }
+}
+
+/* Desktop: 1025px and above */
+@media (min-width: 1025px) {
+  .header {
+    padding: 50px;
+  }
+
+  .header h1 {
+    font-size: 32px;
+  }
+
+  .header h2 {
+    font-size: 30px;
+  }
+
+  .header p {
+    font-size: 17px;
+    max-width: 800px;
+  }
+
+  .header p strong {
+    font-size: 17px;
+  }
+
+  .irishlogo {
+    width: 70px;
+  }
+}

@@ -1,0 +1,28 @@
+.container{
+    text-align: center;
+    padding: 20px;
+}
+.header-row{
+    display: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view-all{
+    text-align: end;
+    margin-top: 10px;
+    align-items: baseline;
+}
+
+@media (max-width: 600px) {
+  .header-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .view-all {
+    text-align: end;
+    margin-top: 10px;
+    /* margin-right: -375px; */
+  }
+}

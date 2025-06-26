@@ -1,0 +1,123 @@
+.AdoptionAds {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+  padding: 12px;
+  box-sizing: border-box;
+  /* background-color: #D9D9D9; */
+  border: 1.94px solid #fff;
+  box-shadow: 0px 23.34px 87.51px 0px #C0BCA138;
+  border-radius: 16px;
+
+}
+
+.Adoptionss{
+  display: flex;
+  gap: 10px;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.Cat-Card {
+  border-radius: 10px;
+  overflow: hidden;
+  flex: 1 1 100%;
+  max-width: 100%;
+}
+
+
+
+/* Pet image */
+.pet-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Card content area */
+.CatCards {
+  padding: 15px;
+}
+
+.CatTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+}
+
+.location {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.CatCards p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.adoption-fee {
+  color: green;
+  font-weight: bold;
+}
+
+/* Adopt Me button */
+.view-btn {
+  display: block;
+  width: 90%;
+  margin: 15px auto;
+  padding: 10px 0;
+  background-color: #A658A1;
+  color: white;
+  border: none;
+  border-radius: 45px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.view-btn:hover {
+  background-color: #A658A1;
+}
+
+ 
+@media (max-width: 480px) {
+  .Cat-Card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+ 
+@media (min-width: 481px) and (max-width: 768px) {
+  .Cat-Card {
+    flex: 1 1 47%;
+    max-width: 100%;
+  }
+}
+
+ 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .Cat-Card {
+    flex: 1 1 30%;
+    max-width: 30%;
+  }
+}
+
+ 
+@media (min-width: 1025px) {
+  .Cat-Card {
+    flex: 1 1 22%;
+    
+  }
+}
+.AdoptionAds {
+  width: 280px;
+}

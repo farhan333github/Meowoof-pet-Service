@@ -1,0 +1,17 @@
+.container{
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.check{
+    text-align: center;
+}
+

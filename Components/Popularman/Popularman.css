@@ -1,0 +1,169 @@
+.popularman-card {
+  width: 220px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+   
+  
+}
+
+.popular{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 91px;
+  background: #fff;
+}
+
+.popular2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 91px;
+  background: #fff;
+}
+
+.cat{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 91px;
+  background-color: #f0f0f0;
+  background: #fff;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.cat2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 91px;
+  background-color: #f0f0f0;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.popular{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 91px;
+  background-color: #f0f0f0;
+  background: #fff;
+}
+
+.popular2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 91px;
+  background-color: #f0f0f0;
+  background: #fff;
+}
+
+
+
+.popularman-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 140px;
+  overflow: hidden;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.popularman-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.popularman-heart {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 1.2rem;
+  color: #e11d48;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.popularman-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 12px 0;
+  color: #111827;
+}
+
+/* Tablet Screens */
+@media (max-width: 1024px) {
+  .popularman-card {
+    width: 200px;
+  }
+
+  .popularman-image-wrapper {
+    height: 130px;
+  }
+
+  .popularman-title {
+    font-size: 0.95rem;
+  }
+
+  .popularman-heart {
+    font-size: 1.1rem;
+    padding: 4px;
+  }
+}
+
+/* Mobile Screens */
+@media (max-width: 768px) {
+  .popularman-card {
+    width: 48%;
+    margin: 1%;
+  }
+
+  .popularman-image-wrapper {
+    height: 120px;
+  }
+
+  .popularman-title {
+    font-size: 0.9rem;
+  }
+
+  .popularman-heart {
+    font-size: 1rem;
+    padding: 3px;
+  }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 480px) {
+  .popularman-card {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .popularman-image-wrapper {
+    height: 100px;
+  }
+
+  .popularman-title {
+    font-size: 0.85rem;
+  }
+
+  .popularman-heart {
+    font-size: 0.9rem;
+    padding: 2px;
+  }
+}

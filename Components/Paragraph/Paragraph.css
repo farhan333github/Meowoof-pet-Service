@@ -1,0 +1,280 @@
+/* .paragraph-container {
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #A658A1;
+  padding: 85px;
+  border-radius: 8px;
+  flex-wrap: wrap;
+ 
+  
+}
+
+.paragraph-text {
+  font-size: 26px;
+  margin-bottom: 15px;
+   font-family: Arial, sans-serif;
+}
+
+.store-icons {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.store-image {
+  height: 47px;
+  cursor: pointer;
+  margin-top: -86px;
+  
+}
+
+
+
+@media (min-width: 600px) {
+  .paragraph-text {
+    font-size: 24px;
+  }
+
+  .store-image {
+    height: 45px;
+  }
+}
+
+/* Large screens (desktops) */
+/* @media (min-width: 1024px) {
+  .paragraph-text {
+    font-size: 26px;
+  }
+
+  .store-image {
+    height: 50px;
+  }
+} */ 
+
+
+/* .paragraph-container {
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #A658A1;
+  padding: 40px 20px; 
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.paragraph-text {
+  font-size: 20px; */
+  /* line-height: 1.5; */
+  /* margin-bottom: 0;
+  text-align: center;
+} */
+
+ 
+/* .store-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+ 
+} */
+
+ 
+/* .store-image {
+  height: 40px;
+  cursor: pointer;
+}
+
+ 
+@media (min-width: 480px) {
+  .paragraph-text {
+    font-size: 22px;
+  }
+
+  .store-image {
+    height: 45px;
+  }
+} */
+
+/*  
+@media (min-width: 768px) {
+  .paragraph-container {
+    padding: 60px 40px;
+  }
+
+  .paragraph-text {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .store-icons {
+    justify-content: flex-end;
+  }
+}
+
+ 
+@media (min-width: 1024px) {
+  .paragraph-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+  }
+
+  .paragraph-text {
+    font-size: 26px;
+    max-width: 60%;
+  }
+
+  .store-icons {
+    justify-content: flex-end;
+  }
+
+  .store-image {
+    height: 50px;
+  }
+} */
+
+
+
+
+
+
+
+/* === Base Styles === */
+.paragraph-container {
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #A658A1;
+  padding: 40px 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.paragraph-container {
+  background-image: url('../../assets/Headerbackgroundframe.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 20px;
+  color: white; 
+  text-align: center;
+}
+
+
+.paragraph-text {
+  font-size: 18px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.store-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.store-image {
+  height: 35px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* === Mobile (max-width: 480px) === */
+@media (max-width: 480px) {
+  .paragraph-container {
+    flex-direction: column;
+    padding: 30px 15px;
+    gap: 15px;
+  }
+
+  .paragraph-text {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .store-image {
+    height: 35px;
+  }
+
+  .store-icons {
+    justify-content: center;
+  }
+}
+
+/* === Tablet (481px to 768px) === */
+@media (min-width: 481px) and (max-width: 768px) {
+  .paragraph-container {
+    padding: 50px 30px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .paragraph-text {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .store-image {
+    height: 40px;
+  }
+
+  .store-icons {
+    justify-content: center;
+  }
+}
+
+/* === Laptop (769px to 1024px) === */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .paragraph-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+  }
+
+  .paragraph-text {
+    font-size: 22px;
+    text-align: left;
+    max-width: 60%;
+  }
+
+  .store-icons {
+    justify-content: flex-end;
+  }
+
+  .store-image {
+    height: 45px;
+  }
+}
+
+/* === Desktop (1025px and above) === */
+@media (min-width: 1025px) {
+  .paragraph-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+  }
+
+  .paragraph-text {
+    font-size: 24px;
+    text-align: left;
+    max-width: 60%;
+  }
+
+  .store-icons {
+    justify-content: flex-end;
+  }
+
+  .store-image {
+    height: 50px;
+  }
+}

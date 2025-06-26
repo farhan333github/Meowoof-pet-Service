@@ -1,0 +1,144 @@
+
+.cat-card-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+/* Base Card Styling */
+.Cat-Card {
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* transition: transform 0.3s ease-in-out; */
+  flex: 1 1 100%;
+  max-width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Cat-container{
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 93%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.Cat-container2{
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 93%;
+  margin: 0 auto;
+
+}
+.hearts{
+  position: absolute;
+  top: 23px;
+  right: 23px;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+
+}
+
+.pet-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Card content */
+.CatCards {
+  padding: 15px;
+}
+
+.CatTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+}
+
+.price {
+  color: green;
+  float: right;
+  font-weight: bold;
+}
+
+.location {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.CatCards p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* View button */
+.view-btn {
+  display: block;
+  width: 90%;
+  margin: 15px auto;
+  padding: 10px 0;
+  background-color: #A658A1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+ 
+}
+
+
+@media (max-width: 480px) {
+  .Cat-Card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+/* Tablet (481px – 768px): 2 cards per row */
+@media (min-width: 481px) and (max-width: 768px) {
+  .Cat-Card {
+    flex: 1 1 47%;
+    max-width: 47%;
+  }
+}
+
+/* Laptop (769px – 1024px): 3 cards per row */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .Cat-Card {
+    flex: 1 1 30%;
+    max-width: 30%;
+  }
+}
+
+/* Desktop (≥1025px): 3-4 cards per row as desired */
+@media (min-width: 1025px) {
+  .Cat-Card {
+    flex: 1 1 22%;
+    max-width: 22%;
+  }
+}
+

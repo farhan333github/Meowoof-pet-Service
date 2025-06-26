@@ -1,0 +1,14 @@
+.container{
+    text-align: center;
+    padding: 20px;
+}
+.header-row{
+    display: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view-all{
+    text-align: end;
+    margin-top: -24px;
+}
